@@ -15,7 +15,7 @@ These last 2 requirements can be modified in the first 2 variables (`MINIMUMRAM`
  
 
 ## Mac Hardware Requirements and equivalent as minimum Model Identifier
- 	- MacBook (Early 2015 or newer), ie MacBook8,1
+ 	- MacBook (Early 2016 or newer), ie MacBook9,1
  	- MacBook Pro (Early 2015 or newer), ie MacBookPro12,1
  	- MacBook Air (Early 2015 or newer), ie MacBookAir7,1
  	- Mac mini (Late 2014 or newer), ie Macmini7,1
