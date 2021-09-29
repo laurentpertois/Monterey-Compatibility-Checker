@@ -48,7 +48,7 @@
 #
 #
 # Mac Hardware Requirements and equivalent as minimum Model Identifier
-# 	- MacBook (Early 2015 or newer), ie MacBook8,1
+# 	- MacBook (Early 2016 or newer), ie MacBook9,1
 # 	- MacBook Pro (Early 2015 or newer), ie MacBookPro12,1
 # 	- MacBook Air (Early 2015 or newer), ie MacBookAir7,1
 # 	- Mac mini (Late 2014 or newer), ie Macmini7,1
@@ -62,6 +62,8 @@
 # Written by: Laurent Pertois | Senior Professional Services Engineer | Jamf
 #
 # Created On: 2021-06-08
+#
+# Edited by Seb Del Saz Alvarez on 2021-09-29 Fixed the requirement for MacBooks, adapted the related model version check
 #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
@@ -120,7 +122,7 @@ if [[ "$OSVERSIONMAJOR" -ge 13 && "$OSVERSIONMAJOR" -le 20 ]]; then
 		COMPATIBILITY="True"
 	elif [[ "$MODELNAME" == "MacPro" && "$MODELVERSION" -ge 60 && "$MEMORYINSTALLED" -ge "$MINIMUMRAM" && "$FREESPACE" -ge "$MINIMUMSPACE" ]]; then
 	    COMPATIBILITY="True"
-	elif [[ "$MODELNAME" == "MacBook" && "$MODELVERSION" -ge 80 && "$MEMORYINSTALLED" -ge "$MINIMUMRAM" && "$FREESPACE" -ge "$MINIMUMSPACE" ]]; then
+	elif [[ "$MODELNAME" == "MacBook" && "$MODELVERSION" -ge 90 && "$MEMORYINSTALLED" -ge "$MINIMUMRAM" && "$FREESPACE" -ge "$MINIMUMSPACE" ]]; then
 	    COMPATIBILITY="True"
 	elif [[ "$MODELNAME" == "MacBookAir" && "$MODELVERSION" -ge 70 && "$MEMORYINSTALLED" -ge "$MINIMUMRAM" && "$FREESPACE" -ge "$MINIMUMSPACE" ]]; then
 	    COMPATIBILITY="True"
