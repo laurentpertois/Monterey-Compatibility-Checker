@@ -1,7 +1,5 @@
 # Monterey-Compatibility-Checker
 
-**This is still a work in progress, I have not yet checked the prerequisites for disk space and minimum RAM so I kept the same as for macOS Big Sur. Once this information is made public, this will be adjusted.**
-
 This script was designed to be used as an Extension Attribute on Jamf Pro server to ensure specific requirements have been met to deploy macOS Monterey. With little modification it can probably be used on other systems (Jamf Pro server requires the output of an Extension Attribute to be `echo "<result>$FOO</result>`).
 
 ## General Requirements:
